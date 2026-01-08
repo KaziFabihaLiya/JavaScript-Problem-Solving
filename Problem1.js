@@ -1,8 +1,10 @@
 function reverseString(str){
-    temp="";
-    for(i=str.length()-1; i>=0; i--){
-        temp += str[i];
+    let tempReverseStr="";
+    for(i=str.length-1; i>=0; i--){
+        tempReverseStr += str[i];
+        
     }
-    console.log(temp)
+    return tempReverseStr;
 }
-console.log(temp)
+result = reverseString("hello";)
+console.log(result)
