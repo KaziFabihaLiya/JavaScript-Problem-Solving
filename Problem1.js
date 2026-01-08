@@ -6,5 +6,5 @@ function reverseString(str){
     }
     return tempReverseStr;
 }
-result = reverseString("hello";)
+result = reverseString("hello");
 console.log(result)
